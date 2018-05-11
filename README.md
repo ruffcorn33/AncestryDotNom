@@ -1,6 +1,6 @@
 # Ancestry*dot*Nom
 
-![logo](assets/images/logo.png)
+![logo](assets/images/logo2.png)
 
 AncestryDotNom is a social media site for extended family groups. It mashes up simple genealogy with recipe sharing.
 
