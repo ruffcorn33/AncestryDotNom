@@ -6,7 +6,7 @@ import "./Navbar.css";
 const Navbar = props => (
   <nav className="NavBar navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand" to="/about_1">
-      Ancestry.nom
+      <img src="../../../logo_trans.png" alt="Ancestry.nom" height="50px" />
     </Link>
     <ul className="navbar-nav mr-auto">
       <li

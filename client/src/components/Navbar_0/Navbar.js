@@ -8,7 +8,7 @@ const Navbar_0 = props => (
     {/* Shawn or can someone add the Logo here when ready? */}
     {/* <div style={{ width: 150 }}>logo comes here</div> */}
     <Link className="navbar-brand" to="/">
-      Ancestry.nom
+      <img src="../../../logo_trans.png" alt="Ancestry.nom" height="50px" />
     </Link>
     <ul className="navbar-nav mr-auto">
       <li
