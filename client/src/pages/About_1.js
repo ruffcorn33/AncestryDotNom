@@ -7,8 +7,9 @@ const styles = {
   textAlign: 'center',
 };
 const insideStyles = {color: 'white', padding: 20, position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%,-50%)'};
-const image1="http://squawalpine.com/sites/default/files/styles/large/public/multiple_medias/media_family-reunion-HC.jpg?itok=Q5NLI7rv";
+// const image1="http://squawalpine.com/sites/default/files/styles/large/public/multiple_medias/media_family-reunion-HC.jpg?itok=Q5NLI7rv";
 const image2="https://healthyforgood.heart.org/-/media/aha/h4gm/article-images/familymealsmonth.jpg?as=1&iar=1&mw=640&hash=03F271251556E950804A3BBEFD5544561EC516FF";
+const foods="https://www.readyseteat.com/sites/g/files/qyyrlu501/files/uploadedImages/img_8211_87238.jpg";
 
 const About = () => (
   <div style={styles}>
@@ -16,15 +17,16 @@ const About = () => (
     <Navbar />
 
     <Parallax
-      blur={1}
-      bgImage={image1}
+      blur={{min:0, max:5}}
+      bgImage={foods}
       bgHeight={'100%'}
+      bgwidth={'auto'}
       strength={150}
     >
-      <div style={{height: 400}}>
+      <div style={{height: 300}}>
         <div style={insideStyles}>
-          <h1>Ancestry*dot*Nom</h1>
-          <h2>Where families meet to share recipes</h2>
+          <p class="welcome welcome1">Ancestry*dot*Nom</p>
+          <p class="welcome welcome2">Where families meet to share recipes</p>
         </div>
       </div>
       <div style={{ height: '500px' }} />
@@ -40,15 +42,19 @@ const About = () => (
     <Parallax 
       bgImage={image2}
       strength={75}
-      // bgHeight={'110%'}
+      bgHeight={'100%'}
+      bgwidth={'auto'}
       >
-      <div style={{ height: '600px'}} />
+      <div style={{ height: '700px'}} />
       <ul style={{ padding: 20, position: 'absolute', top: '70%', left: '50%', transform: 'translate(-50%,-50%)' }}>
         <li>
           <a href="/login" className="border btn">Login</a>
         </li>
         <li>
           <a href="/signup" className="border btn">Register</a>
+        </li>
+        <li>
+          <a href="https://www.urbandictionary.com/define.php?term=Noms" className="border btn">What the heck does NOM mean?</a>
         </li>
       </ul>
     </Parallax>

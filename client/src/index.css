@@ -29,6 +29,20 @@ body {
   color: #ddd;
 }
 
+.welcome {
+  color: #ddd;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.welcome1 {
+  font-size: 5em;
+}
+
+.welcome2 {
+  font-size: 2.5em;
+  font-style: italic;
+}
+
 .copy-body {
   height: 400px;
   padding-top: 110px;
